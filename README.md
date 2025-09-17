@@ -14,7 +14,7 @@ They specify the required layers, repositories, and revisions to ensure a reprod
 - `*-next`: Development branch.
 - Other branches correspond to specific yocto releases.
 - The branch will be based on the release type Linux with release manifests in each branch tied to the base releases.
-  - For example for i.MX Linux Yocto Project releases the branches will be imx-linux-<yocto-project-release>
+  - For example for i.MX Linux Yocto Project releases the branches will be imx-linux-< yocto-project-release >
 
 
 ## Usage
