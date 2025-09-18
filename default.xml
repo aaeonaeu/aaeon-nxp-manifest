@@ -17,9 +17,9 @@
   <project remote="yp" 
            name="poky"
            path="sources/poky"
-           revision="scarthgap-5.0.10"
+           revision="a68660ca6f871145c2c8db624bb8fb1d39b61394"
            upstream="scarthgap"/> <!-- welma-scarthgap-1.4.2-->
-           
+
   <!-- OpenEmbedded layers -->
   <project remote="oe"
            name="meta-openembedded"
