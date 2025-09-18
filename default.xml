@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Define remotes -->
+  <remote name="yp"
+          fetch="https://git.yoctoproject.org" />
+  <remote name="oe"
+          fetch="https://github.com/openembedded" />
+  <remote name="freescale"
+          fetch="https://github.com/Freescale" />
+
+
+  <!-- Default revision -->
+  <default revision="scarthgap" sync-j="4"/>
+
+  <!-- Core Yocto Project -->
+  <project remote="yp" 
+           name="poky"
+           path="sources/poky"
+           revision="scarthgap-5.0.10"
+           upstream="scarthgap"/> <!-- welma-scarthgap-1.4.2-->
+           
+  <!-- OpenEmbedded layers -->
+  <project remote="oe"
+           name="meta-openembedded"
+           path="sources/meta-openembedded"
+           revision="727811eaf256b88fd135be99559f2cbf14c82fce" 
+           upstream="scarthgap"/>  <!-- welma-scarthgap-1.4.2-->
+
+  <!-- Freescale layers -->
+<project remote="freescale" 
+         name="meta-freescale"  
+         path="sources/meta-freescale" 
+         revision="1805a964583d1773310ddbe185a52b0ab3468e6d"
+         upstream="scarthgap"/>  <!-- welma-scarthgap-1.4.2-->
+
+</manifest>
