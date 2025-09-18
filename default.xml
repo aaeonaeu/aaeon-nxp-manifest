@@ -17,7 +17,7 @@
   <project remote="yp" 
            name="poky"
            path="sources/poky"
-           revision="a68660ca6f871145c2c8db624bb8fb1d39b61394"
+           revision="ac257900c33754957b2696529682029d997a8f28"
            upstream="scarthgap"/> <!-- welma-scarthgap-1.4.2-->
 
   <!-- OpenEmbedded layers -->
