@@ -9,7 +9,7 @@
   <remote name="freescale"
           fetch="https://github.com/Freescale" />
   <remote name="aaeon"
-          fetch="https://github.com/aaeoneu" />
+          fetch="https://github.com/aaeonaeu" />
 
 
   <!-- Default revision -->
