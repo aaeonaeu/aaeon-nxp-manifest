@@ -8,6 +8,8 @@
           fetch="https://github.com/openembedded" />
   <remote name="freescale"
           fetch="https://github.com/Freescale" />
+  <remote name="aaeon"
+          fetch="https://github.com/aaeoneu/" />
 
 
   <!-- Default revision -->
@@ -28,10 +30,17 @@
            upstream="scarthgap"/>  <!-- welma-scarthgap-1.4.2-->
 
   <!-- Freescale layers -->
-<project remote="freescale" 
-         name="meta-freescale"  
-         path="sources/meta-freescale" 
-         revision="1805a964583d1773310ddbe185a52b0ab3468e6d"
-         upstream="scarthgap"/>  <!-- welma-scarthgap-1.4.2-->
+  <project remote="freescale" 
+           name="meta-freescale"  
+           path="sources/meta-freescale" 
+           revision="1805a964583d1773310ddbe185a52b0ab3468e6d"
+           upstream="scarthgap"/>  <!-- welma-scarthgap-1.4.2-->
+
+    <!-- AAEON NXP i.MX8 specific layer -->
+  <project remote="aaeon" 
+           name="meta-aaeon-nxp-imx8"  
+           path="sources/meta-aaeon-nxp-imx8" 
+           revision="scarthgap-6.12"
+           upstream="scarthgap"/>
 
 </manifest>
