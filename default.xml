@@ -40,7 +40,7 @@
   <project remote="aaeon" 
            name="meta-aaeon-nxp-imx8"  
            path="sources/meta-aaeon-nxp-imx8" 
-           revision="scarthgap-6.12"
+           revision="scarthgap-6.6"
            upstream="scarthgap"/>
 
 </manifest>
