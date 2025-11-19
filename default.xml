@@ -12,10 +12,7 @@
           fetch="https://github.com/aaeonaeu" />
   <remote name="imx"
           fetch="https://github.com/nxp-imx" />
-  <remote name="qt"
-          fetch="https://github.com/YoeDistro" />
-  <remote name="kraj"        
-          fetch="https://github.com/kraj"/>
+
 
 
   <!-- Default revision -->
