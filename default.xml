@@ -30,10 +30,6 @@
            revision="1b85bbb4cab9658da3cd926c62038b8559c5c64e"
            upstream="scarthgap"/>
 
- <project remote="yp" name="meta-security" path="sources/meta-security"
-           revision="11ea91192d43d7c2b0b95a93aa63ca7e73e38034"
-           upstream="scarthgap"/>
-
   <!-- OpenEmbedded layers -->
   <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded"
            revision="727811eaf256b88fd135be99559f2cbf14c82fce"
@@ -52,14 +48,6 @@
   <project remote="imx" name="meta-imx" path="sources/meta-imx"
            revision="refs/tags/rel_imx_6.6.52_2.2.0"
            upstream="scarthgap-6.6.52-2.2.0"/> 
-
-  <project remote="qt" name="meta-qt6" path="sources/meta-qt6"
-           revision="dc13e1bfda4a4757a08c2d6673bc4bac012c4a80"
-           upstream="6.7.0" />
-           
-  <project remote="kraj" name="meta-clang" path="sources/meta-clang"
-           revision="fe561f41aef0cff9e6f96730ab59f28dca2eb682"
-           upstream="scarthgap"/>
 
     <!-- AAEON NXP i.MX8 specific layer -->
   <project remote="aaeon" name="meta-aaeon-nxp-imx8" path="sources/meta-aaeon-nxp-imx8"
