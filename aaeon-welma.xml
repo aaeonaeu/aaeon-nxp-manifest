@@ -16,6 +16,8 @@
           fetch="git@gitlab.com:witekio/rnd/theembeddedkit/welma" />
   <remote name="swupdate"
           fetch="https://github.com/sbabic" />
+  <remote name="aaeon-welma"
+          fetch="git@github.com:aaeonaeu" />
 
 
   <!-- Default revision -->
@@ -63,7 +65,7 @@
            revision="83d78b0946449c0f156dee41c600811cde8ddbb8" />
     
     <!-- Aaeon-Welma integration layer -->
-  <project remote="aaeon" name="meta-welma-aaeon-imx" path="sources/meta-welma-aaeon-imx"
+  <project remote="aaeon-welma" name="meta-welma-aaeon-imx" path="sources/meta-welma-aaeon-imx"
              revision="scarthgap-next"
              upstream="scarthgap"/>
 </manifest>
