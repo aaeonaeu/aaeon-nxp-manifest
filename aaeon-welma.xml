@@ -14,6 +14,8 @@
           fetch="https://github.com/nxp-imx" />
   <remote name="welma"
           fetch="git@gitlab.com:witekio/rnd/theembeddedkit/welma" />
+  <remote name="swupdate"
+          fetch="https://github.com/sbabic" />
 
 
   <!-- Default revision -->
@@ -52,10 +54,13 @@
            revision="scarthgap-6.6"
            upstream="scarthgap"/>
 
-    <!-- Welma specific layer -->
+    <!-- Welma specific layers -->
   <project remote="welma" name="meta-welma" path="sources/meta-welma"
            revision="refs/tags/1.6.1-scarthgap" 
            upstream="scarthgap-1.6.1"/>
+
+  <project remote="swupdate" name="meta-swupdate" path="sources/meta-swupdate"
+           revision="83d78b0946449c0f156dee41c600811cde8ddbb8" />
     
     <!-- Aaeon-Welma integration layer -->
   <project remote="aaeon" name="meta-welma-aaeon-imx" path="sources/meta-welma-aaeon-imx"
