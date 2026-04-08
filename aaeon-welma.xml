@@ -58,8 +58,8 @@
 
     <!-- Welma specific layers -->
   <project remote="welma" name="meta-welma" path="sources/meta-welma"
-           revision="refs/tags/1.6.1-scarthgap" 
-           upstream="scarthgap-1.6.1"/>
+           revision="refs/tags/1.7.0-scarthgap" 
+           upstream="scarthgap-1.7.0"/>
 
   <project remote="swupdate" name="meta-swupdate" path="sources/meta-swupdate"
            revision="83d78b0946449c0f156dee41c600811cde8ddbb8" />
